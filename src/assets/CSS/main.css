@@ -1,0 +1,10 @@
+@import './base.css';
+@import './mobile.css';
+
+* {
+  box-sizing: border-box;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
