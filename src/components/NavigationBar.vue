@@ -1,4 +1,3 @@
-
 <template>
     <nav>
         <ul id="navul">
@@ -16,39 +15,29 @@
 
 
 <style>
-
-
-
 nav {
-  width:fit-content;
-  position:fixed;
+  width: fit-content;
+  position: fixed;
   top: 1.5rem;
-  nav-right: 1.5rem;
+  right: 1.5rem;
 }
 #navul {
   display: flex;
   padding: 20px;
-
   list-style-type: none;
   flex-direction: column;
   justify-items:flex-end;
-
- }
- .menu {
-
+  gap: 1rem;  /* augmente l'espacement vertical entre les li */
+}
+.menu {
    padding: 0px;
-   margin: 0 px;
-
-
+   margin: 0px;
    border: none;
-
-
-
-  
- }
+}
       
- nav li :hover {
-   background-color: blueviolet;
- }
- </style>
+nav li :hover {
+   color: blueviolet;
+   text-decoration: none;
+}
+</style>
 
