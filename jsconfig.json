@@ -1,21 +1,23 @@
 {
-  "include": [
-    "./src/**/*"
-  ],
-
   "compilerOptions": {
-    "baseUrl": ".",
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "checkJs": false,
     "paths": {
       "@/*": [
         "./src/*"
       ]
     },
     "lib": [
-      "es2018",
-      "dom"
+      "ES2020",
+      "DOM"
     ]
   },
-
+  "include": [
+    "./src/**/*"
+  ],
   "exclude": [
     "node_modules",
     "dist"
