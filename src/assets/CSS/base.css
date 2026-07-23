@@ -1,34 +1,17 @@
-
+* {
+  box-sizing: border-box;
+}
 
 body {
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    width: 1160px;
-    margin: 0 auto;
-     }
+  width: 1160px;
+  margin: 0 auto;
 }
 
-
-title {
-  text-decoration: none;
-}
-
- a,
+/* Styles pour liens et éléments avec la classe .green */
+a,
 .green {
-
   color: rgb(174, 218, 105);
   transition: 0.4s;
   padding: 3px;
-} 
-
-
-
-
-
-
-
- 
-
- 
+  text-decoration: none;
+}

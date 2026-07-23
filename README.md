@@ -1,29 +1,55 @@
-# portFolio
+# PortFolio Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Description
+- Petite application Vue présentant des réalisations personnelles (CV en ligne, cahier des charges, espace de commentaires, widget météo).
+- Comprend des modales réutilisables (Modale2) et un composant MeteoWidget.
 
-## Recommended IDE Setup
+Technologies
+- Vue.js (version du projet)
+- Vite ou Vue CLI (selon setup)
+- HTML / CSS / JavaScript
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Fonctionnalités
+- Grille responsive de projets (2 colonnes → 1 colonne mobile)
+- Modales pour afficher détails et média (image formUdemy.jpg, widget météo)
+- Navigation par router (Accueil, Réalisations, Contact)
 
-## Customize configuration
+Prérequis
+- Node.js >= 16
+- npm ou yarn
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+Installation
+```bash
+cd c:\CODE\projet_Vue\portFolio
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+Lancer en développement
+- Vite :
+```bash
 npm run dev
 ```
+- Vue CLI :
+```bash
+npm run serve
+```
 
-### Compile and Minify for Production
-
-```sh
+Build pour production
+```bash
 npm run build
 ```
+
+Structure importante
+- src/views/Nouvelle.vue — page "Réalisations" (ajout du 4ᵉ projet, modales)
+- src/components/Modale2.vue — composant modale réutilisable
+- src/components/MeteoWidget.vue — widget météo
+- src/components/NavigationBar.vue — barre de navigation
+- src/assets/img/formUdemy.jpg — image utilisée dans la modale
+- src/assets/img/* — autres miniatures et images
+
+
+
+
+
+Contact
+- GitHub : Ziagar1969
