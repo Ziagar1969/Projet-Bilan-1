@@ -61,7 +61,7 @@ import Modale2 from "../components/Modale2.vue"
 import MeteoWidget from "../components/MeteoWidget.vue"
 import formUdemy from "../assets/img/formUdemy.jpg"
 export default {
-    name: "Nouvelle",
+  name: "Realisations",
 
     components: {
         Modale2,

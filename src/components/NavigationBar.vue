@@ -2,7 +2,7 @@
     <nav>
         <ul id="navul">
         <li class="menu"><router-link to="/">Accueil</router-link></li>
-        <li class="menu"><router-link to="Nouvelle">Réalisations</router-link></li>
+      <li class="menu"><router-link to="/realisations">Réalisations</router-link></li>
         <li class="menu"><router-link to="/Contact">Contact</router-link></li>
    
     </ul>  
